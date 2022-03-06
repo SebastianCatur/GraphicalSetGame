@@ -16,6 +16,11 @@
 		EC12B57C27CE74F200C766DA /* GraphicalSetGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B57B27CE74F200C766DA /* GraphicalSetGameTests.swift */; };
 		EC12B58627CE74F200C766DA /* GraphicalSetGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B58527CE74F200C766DA /* GraphicalSetGameUITests.swift */; };
 		EC12B58827CE74F200C766DA /* GraphicalSetGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B58727CE74F200C766DA /* GraphicalSetGameUITestsLaunchTests.swift */; };
+		EC51A68C27CFBFDC00A9DDD4 /* SetGameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51A68B27CFBFDC00A9DDD4 /* SetGameButton.swift */; };
+		EC93087127CE77530076CF27 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93087027CE77530076CF27 /* Card.swift */; };
+		EC93087327CE77650076CF27 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93087227CE77650076CF27 /* SetGame.swift */; };
+		ECA658FB27CFA391002AD5E7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA658FA27CFA391002AD5E7 /* Grid.swift */; };
+		ECA658FF27CFAB9C002AD5E7 /* SetGameContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA658FE27CFAB9C002AD5E7 /* SetGameContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		EC12B58127CE74F200C766DA /* GraphicalSetGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicalSetGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC12B58527CE74F200C766DA /* GraphicalSetGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicalSetGameUITests.swift; sourceTree = "<group>"; };
 		EC12B58727CE74F200C766DA /* GraphicalSetGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicalSetGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC51A68B27CFBFDC00A9DDD4 /* SetGameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameButton.swift; sourceTree = "<group>"; };
+		EC93087027CE77530076CF27 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EC93087227CE77650076CF27 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		ECA658FA27CFA391002AD5E7 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		ECA658FE27CFAB9C002AD5E7 /* SetGameContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				EC12B56427CE74EF00C766DA /* AppDelegate.swift */,
 				EC12B56627CE74EF00C766DA /* SceneDelegate.swift */,
 				EC12B56827CE74EF00C766DA /* ViewController.swift */,
+				ECA658FE27CFAB9C002AD5E7 /* SetGameContainerView.swift */,
+				EC93087027CE77530076CF27 /* Card.swift */,
+				EC93087227CE77650076CF27 /* SetGame.swift */,
+				EC51A68B27CFBFDC00A9DDD4 /* SetGameButton.swift */,
+				ECA658FA27CFA391002AD5E7 /* Grid.swift */,
 				EC12B56A27CE74EF00C766DA /* Main.storyboard */,
 				EC12B56D27CE74F200C766DA /* Assets.xcassets */,
 				EC12B56F27CE74F200C766DA /* LaunchScreen.storyboard */,
@@ -260,7 +275,12 @@
 			files = (
 				EC12B56927CE74EF00C766DA /* ViewController.swift in Sources */,
 				EC12B56527CE74EF00C766DA /* AppDelegate.swift in Sources */,
+				EC93087327CE77650076CF27 /* SetGame.swift in Sources */,
+				ECA658FF27CFAB9C002AD5E7 /* SetGameContainerView.swift in Sources */,
 				EC12B56727CE74EF00C766DA /* SceneDelegate.swift in Sources */,
+				EC51A68C27CFBFDC00A9DDD4 /* SetGameButton.swift in Sources */,
+				ECA658FB27CFA391002AD5E7 /* Grid.swift in Sources */,
+				EC93087127CE77530076CF27 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
